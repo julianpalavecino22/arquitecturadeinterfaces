@@ -1,0 +1,302 @@
+
+/* general */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #18140d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* contenedor principal */
+
+
+.contenedor {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+/* presentacion */
+
+
+.presentacion {
+    width: 100%;
+    max-width: 1165px;
+
+    margin: 0 auto;
+
+    padding: 115px 0 65px;
+
+    display: flex;
+
+    gap: 105px;
+}
+
+
+
+/* columna izquierda */
+
+
+.columna-izquierda {
+    width: 505px;
+}
+
+
+
+/* foto */
+
+
+.foto {
+    width: 504px;
+    height: 396px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* intereses */
+
+
+.intereses {
+    margin-top: 79px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 42px;
+    row-gap: 70px;
+
+    padding-left: 5px;
+}
+
+.interes {
+    display: flex;
+
+    align-items: center;
+
+    gap: 21px;
+}
+
+/* iconos */
+
+
+.icono {
+    width: 59px;
+    height: 59px;
+
+    flex-shrink: 0;
+}
+
+
+/* Imagen */
+
+.icono img {
+    width: 59px;
+    height: 59px;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* titulos de mis caracteristicas */
+
+.interes h3 {
+    margin: 0 0 8px;
+
+    font-size: 18px;
+
+    font-weight: normal;
+}
+
+
+.interes p {
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 1.2;
+}
+
+
+/* columna derecha */
+
+.columna-derecha {
+    flex: 1;
+
+    padding-top: 3px;
+}
+
+
+/* nombre */
+
+h1 {
+    margin: 0;
+
+    font-size: 69px;
+
+    line-height: 1.22;
+
+    font-weight: 800;
+
+    letter-spacing: -2px;
+}
+
+
+h1 span {
+    color: #0f4f1c;
+}
+
+
+/* subtitulo */
+
+h2 {
+    margin: 22px 0 0;
+
+    font-size: 16px;
+
+    font-weight: normal;
+}
+
+
+/* linea divisoria */
+
+.linea {
+    width: 100px;
+
+    height: 5px;
+
+    background-color: #125322;
+
+    margin-top: 41px;
+
+    margin-bottom: 37px;
+}
+
+
+/* texto */
+
+.texto {
+    max-width: 525px;
+}
+
+
+.texto p {
+    margin: 0 0 22px;
+
+    font-size: 20px;
+
+    line-height: 1.2;
+}
+
+
+
+/* footer */
+
+footer {
+    border-top: 10px solid #10491d;
+
+    min-height: 137px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 max(calc((100% - 1135px) / 2), 30px);
+}
+
+
+/* instagram */
+
+.instagram {
+    display: flex;
+
+    align-items: center;
+
+    gap: 24px;
+}
+
+
+.link-icon {
+    font-size: 39px;
+
+    color: #000;
+
+    transform: rotate(-45deg);
+}
+
+
+.instagram p {
+    margin: 0 0 4px;
+
+    font-size: 18px;
+}
+
+
+.instagram a {
+    color: #aaa;
+
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+
+
+/* boton */
+
+.boton {
+    border: 5px solid #125322;
+
+    border-radius: 40px;
+
+    padding: 15px 20px;
+
+    color: #125322;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+.boton span {
+    font-size: 32px;
+
+    vertical-align: -3px;
+
+    margin-left: 8px;
+}
+
+
+/* Hover del botón */
+
+.boton:hover {
+    color: white;
+
+    background-color: #125322;
+
+    transform: scale(1.05);
+}
+
+
+
